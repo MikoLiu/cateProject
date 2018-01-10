@@ -1,0 +1,150 @@
+div.logo{
+	width:100%;
+	height:50px;
+/*	margin:0 auto;*/
+	background:black;
+	text-align:center;
+	line-height:50px;
+}
+/*设置LOGO字体*/
+div.logo span{
+	font-family:"Microsoft YaHei";
+	font-weight:bold;
+}
+/*设置LOGO大小*/
+div.logo img{
+	width:30px;
+	height:30px;
+	border-radius:20%;
+}
+/*设置导航栏字体*/
+/*logo大字*/
+div.nav{
+	width:100%;
+	height:50px;
+	background-image:linear-gradient(to right,#151412,#52514f);
+	display:flex;
+	justify-content:space-between;
+	box-sizing:border-box;
+	border-bottom:1px solid #50404d;
+	position:absolute;
+}
+
+div.lnav{
+	width:130px;
+	height:50px;
+	position:relative;
+	
+}
+
+div.lnav>img{
+	width:50px;
+	height:50px;
+	position:absolute;
+	top:0;
+}
+div.text{
+	height:50px;
+	display:inline-block;
+	padding-top:5px;
+	position:absolute;
+	right:10px;
+	color:#fff;
+}
+div.lnav>span:nth-child(2){
+/*	color:#fff;*/
+	font-size:10px;
+}
+/*导航*/
+div.nav ul{
+	height:50px;
+}
+div.rnav ul{
+	position:absolute;
+	right:0;
+}
+div.rnav ul li{
+	width:80px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	font-family:"宋体";
+	font-size:20px;
+	float:left;
+	margin-left:10px;
+	transition:transform linear 1s;
+	
+}
+div.rnav ul li:hover{
+	border-bottom:1px solid #fff;
+	transform:scale(1.1);
+}
+/*关于*/
+/*div.rnav>ul>li>a>span*/
+.sel{
+	position:absolute;
+	top:-3px;
+	display:inline-block;
+	transform:rotate(-90deg);
+	
+}
+div.rnav>ul>li>a>span:hover{
+	
+}
+div.rnav>ul>li>a{
+	position:relative;
+}
+
+.about{
+	width:200px;
+	height:150px;
+	position:relative;
+	top:50px;
+	right:203px;
+	font-size:18px;
+	text-align:center;
+	z-index:11;
+	display:none;
+}
+/*当登陆成功，关于项的样式*/
+.welAbout{
+	width:200px;
+	height:150px;
+	position:relative;
+	top:50px;
+	right:320px;
+	font-size:18px;
+	text-align:center;
+	z-index:11;
+	display:none;
+}
+div.nav>div:last-child ul li{
+	margin-top:20px;
+	border-bottom:1px solid #474340;
+}
+.WelcomeList>li:nth-child(4){
+	width:200px;
+}
+.WelcomeList{
+	display:none;
+}
+/*登陆成功后，我的主页*/
+.mine{
+	width:200px;
+	height:150px;
+	position:relative;
+	top:50px;
+	right:193px;
+	font-size:18px;
+	text-align:center;
+	z-index:11;
+	display:none;
+}
+.mine li{
+	width:200px;
+	height:40px;
+	color:#fff;
+	margin:10px;
+	border-bottom:1px solid #474340;
+}
+

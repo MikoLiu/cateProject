@@ -1,0 +1,42 @@
+.index{
+	width:100%;
+	height:1000px;
+	/*background:red;*/
+	position:relative;
+	overflow: hidden;
+}
+ #container{
+	/*width:410%;*/
+	height:1000px;
+	position:absolute;
+	left:0;
+}
+.index #container div{
+	width:100%;
+	height:1000px;
+	float:left;
+
+}
+.index img{
+	width:100%;
+	height:1000px;
+}
+
+.index ul li{
+	float:left;
+}
+/*覆盖在轮播图上的文字*/
+.index #container div p{
+	font-family: "Times New Roman", Times, serif;
+	font-size:150px;
+	position:absolute;
+	top:0px;
+	color:#fff;
+}
+.index #container div:nth-child(2) p{
+	left:2100px;
+}
+.index #container div:nth-child(3) p{
+	left:4050px;
+}
+

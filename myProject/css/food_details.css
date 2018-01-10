@@ -1,0 +1,182 @@
+.main:after{
+	content:"";
+	display:table;
+	clear:both;
+}
+.bread-crumb{
+	margin-top:10px;
+	margin-bottom:10px;
+	font-size:22px;
+	color:#666;
+}
+.food_details .preview{
+	width:600px;
+	float:left;
+	/*background:yellow;*/
+	position:relative;
+}
+.preview>img{
+	width:450px;
+	height:450px;
+}
+/*鼠标移动小方块*/
+.preview #mask{
+	width:225px;
+	height:225px;
+	background:#212121;
+	opacity:0.7;
+	position:absolute;
+	left:0;
+	top:0;
+	display:none;
+	/*z-index: 10;*/
+}
+/*覆盖在图片上的div*/
+.preview #superMask{
+	width:450px;
+	height:450px;
+	position:absolute;
+	left:0;
+	top:0;
+}
+/*放大镜图片*/
+#largeDiv{
+	width:400px;
+	height:400px;
+	position:absolute;
+	top:0;
+	left:450px;
+	background:lightblue;
+	z-index:999;
+	display:none;
+}
+/*小图片选择列表*/
+.forward,.backward{
+	display:inline-block;
+	width:17px;
+	height:90px;
+	line-height: 100px;
+	background:linear-gradient(to right,#212121,black);
+	margin-top:10px;
+	float:left;
+	color:#b0ada8;
+}
+.backward{
+
+}
+.fList{
+	width:415px;
+	height:100px;
+	float:left;
+	overflow:hidden;
+}
+.fList li{
+	width:90px;
+	height:100px;
+	line-height: 100px;
+	margin-left:10px;
+	float:left;
+	/*background:skyblue;*/
+}
+.fList li img{
+	width:90px;
+	height:90px;
+	border-radius: 10%;
+}
+
+
+/*商品详情*/
+.food_details .show{
+	width:550px;
+	padding-left:50px;
+	float:left;
+	/*background:red;*/
+}
+.show .price{
+	width:400px;
+	height:100px;
+	background:linear-gradient(to bottom,#212121,black);
+	box-shadow:5px 5px 10px black;
+	font-size:25px;
+	line-height:100px;
+	color:#ddd;
+	font-family: Trebuchet MS;
+}
+/*购物车加减样式*/
+.show p{
+	margin-top:20px;
+	position:relative;
+	font-size:22px;
+}
+.show p input{
+	width:40px;
+	height:40px;
+	text-align:center;
+	position:absolute;
+	top:-5px;
+	left:115px;
+	background:black;
+	color:#fff;
+}
+.show p button{
+/*	position:absolute;*/
+	width:48px;
+	height:48px;
+	line-height:48px;
+	font-size:22px;
+	cursor:pointer;
+	background:black;
+	color:#fff;
+}
+.show p button:first-child{
+	position:absolute;
+	top:-6px;
+	left:60px;
+
+}
+.show p button:nth-child(3){
+	position:absolute;
+	top:-6px;
+	left:166px;
+}
+/*加入购物车*/
+.shop{
+	margin-top:30px;
+	font-size: 18px;
+	color:#52514f;
+	position:relative;
+}
+.shop a:not(:last-child){
+	display:inline-block;
+	width:200px;
+	height:50px;
+	line-height:50px;
+	text-align:center;
+	background:linear-gradient(to bottom,#212121,black);
+}
+.shop a:last-child{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	line-height:50px;
+	background:linear-gradient(to bottom,#212121,black);
+}
+
+.show h1{
+	color: transparent;
+	-webkit-text-stroke: 1px #fff;
+	letter-spacing: 0.04em;
+
+	}
+
+.cCount{
+	width:30px;
+	height:30px;
+	background: red;
+	position:absolute;
+	left:368px;
+	top:-10px;
+	border-radius:50%;
+	text-align:center;
+	line-height:30px;
+}

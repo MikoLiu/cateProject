@@ -1,0 +1,32 @@
+.ask{
+    width:150px;
+    height:150px;
+    position:fixed;
+    right:0;
+    bottom:20px;
+    z-index:11;
+    transition:all .5s linear;
+}
+.ask ul span{
+    position:absolute;
+    right:10px;
+    top:10px;
+    color:#fff;
+    cursor:pointer;
+}
+.ask ul li{
+    width:150px;
+    height:50px;
+    line-height:50px;
+    text-align:center;
+}
+.ask ul li:first-child{
+    background:#292929;
+}
+.ask ul li:not(:first-child){
+    background:#444;
+}
+.ask ul li:nth-child(2){
+    border-bottom:1px solid #4b4b4b;
+    background: #212121;
+}

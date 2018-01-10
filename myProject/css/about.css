@@ -1,0 +1,19 @@
+div.top{
+	width:100%;
+	height:330px;
+	background:url(../img/about/top-img.png);
+}
+div.txt>p{
+	text-align:center;
+}
+div.txt>p:not(:last-child){
+	color:#fff;
+}
+div.txt>p:first-child{
+	margin-top:50px;
+	font-size:30px;
+}
+div.txt>p:last-child{
+	margin-top:50px;
+	font-size:20px;
+}

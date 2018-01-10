@@ -1,0 +1,56 @@
+div.content{
+	background:url("../img/register/bgimg2.jpg") repeat no-repeat;
+}
+
+div.register{
+	width:600px;
+	height:600px;
+	background:rgba(28,28,28,0.3);
+	margin-top:100px;
+	margin-left:290px;
+	text-align:center;
+	border:0.1px solid #212121;
+	color:#fff;
+}
+
+div.register>p {
+	height:60px;
+	text-align:center;
+	font-size:18px;
+	margin-top:40px;
+}
+div.register>p span{
+	display:inline-block;
+	width:100px;
+	height:24px;
+	
+}
+div.register>p>span{
+	cursor:pointer;
+}
+div.register>p span:hover{
+	border-bottom:1px solid #fff;
+	transform:scale(1.1);
+	color:#0aa1ed;
+}
+
+div.register ul li{
+	display:inline-block;
+	width:300px;
+	height:64px;
+/*	margin-left:80px;*/
+/*	position:relative;*/
+}
+div.register ul li span{
+	float:right;
+}
+div.register ul p{
+	text-align:left;
+	font-size:14px;
+/*	left:0;*/
+	
+}
+ul li input{
+	width:100%;
+	height:30px;	
+}

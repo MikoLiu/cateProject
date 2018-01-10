@@ -1,0 +1,56 @@
+#top-map{
+    width:100%;
+    height:500px;
+    background:red;
+}
+div.txt>p{
+    text-align:center;
+}
+div.txt>p:not(:last-child){
+    color:#fff;
+}
+div.txt>p:first-child{
+    margin-top:50px;
+    font-size:30px;
+}
+div.txt>p:last-child{
+    margin-top:50px;
+    font-size:20px;
+}
+.main div:not(:first-child){
+    width:220px;
+    height:300px;
+    /*line-height: 50px;*/
+    float:left;
+    margin-top:80px;
+    margin-left:80px;
+    color:#b0ada8;
+
+    /*background:red;*/
+}
+.main div:not(:first-child) h1{
+    margin-bottom:20px;
+}
+.main:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+/*广告列表*/
+.ulist li{
+    width:350px;
+    height:150px;
+    line-height:150px;
+    text-align: center;
+    float:left;
+    font-size: 18px;
+}
+.ulist li:not(:last-child){
+    border-right: 1px solid #494949;
+}
+.ulist{
+    margin-top:80px;
+    width:100%;
+    height:200px;
+    border-bottom: 1px solid #2d2d2d;
+}

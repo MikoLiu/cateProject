@@ -1,0 +1,86 @@
+div.title{
+	margin-top:80px;
+	
+}
+div.title p{
+	text-align:center;
+	font-size:30px;
+	margin-bottom:20px;
+}
+div.title ul{
+	width:500px;
+	margin:0 auto;
+	display:flex;
+	justify-content:space-between;
+}
+div.title ul li {
+	font-size:20px;
+}
+div.content{
+	width:1200px;
+}
+div.content ul{
+/*width:1200px;*/
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	margin-top:20px;
+}
+div.content ul li{
+	width:250px;
+	height:350px;
+	margin-left:10px;
+/*	float:left;*/
+}
+
+div.content ul li img{
+	width:292px;
+	height:280px;
+}
+div.content ul li p{
+	color:#e3e7e7;
+	font-size:18px;
+	text-align:center;
+	margin-top:5px;
+}
+div.content ul li span{
+	display:block;
+	color:#e3e7e7;
+	text-align:center;
+}
+/*分页*/
+#pages{
+	text-align:center;
+}
+#pages>a{
+	display:inline-block;
+	width:50px;
+	height:50px;
+	background:#3f3f3f;
+	text-align:center;
+	line-height:50px;
+	margin-top:20px;
+	margin-left:10px;
+/*	margin-left:50%;*/
+
+/*	position:absolute;*/
+/*	bottom:0;*/
+}
+
+/*div.main{*/
+/*	position:relative;*/
+/*}*/
+#pages a.current{
+    border-color:green;
+/*    background:#0aa1ed;*/
+    color:#fff;
+}
+#pages a.disabled{
+    color:gray;
+/*    background:#f2f2f2;#bfbfbf*/
+    border:1px solid #212121;
+}
+/*覆盖在菜品li 上面的div*/
+.content ul li:hover{
+
+}

@@ -1,0 +1,46 @@
+div.top{
+	width:100%;
+	height:330px;
+	background:url(../img/about/service-top.png);
+}
+div.main>p{
+	text-align:center;
+	color:#fff;
+}
+div.main>p:first-child{
+	font-size:30px;
+}
+div.serviceList ul{
+	width:1200px;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap:wrap;
+}
+div.serviceList ul li{
+	width:350px;
+	height:400px;
+	margin-top:10px;
+	text-align:center;
+	transition:all 1s linear;
+}
+div.serviceList ul li:hover{
+	transform:scale(1.05);
+	box-shadow:2px 2px 5px 5px #1e1e1e;
+	border:1px solid #464646;
+}
+div.serviceList ul li p{
+	margin-top:30px;
+}
+div.serviceList>ul>li>a{
+	color:#666;
+	display:block;
+	font-size:15px;
+	margin-top:20px;
+}
+div.serviceList ul li p:nth-child(2){
+	font-size:25px;
+	color:#fff;
+}
+div.serviceList ul li p:not(:first-child){
+	font-size:15px;
+}

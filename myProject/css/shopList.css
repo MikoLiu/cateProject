@@ -1,0 +1,148 @@
+.title>span{
+    font-size: 18px;
+}
+/*.main{*/
+    /*text-align: center;*/
+/*}*/
+/*购物清单标题*/
+.title{
+    margin-top:100px;
+    margin-left: 200px;
+}
+/*购物清单主体*/
+.cart{
+    margin-left: 200px;
+    margin-bottom: 10px;
+
+}
+.cart tr td{
+    width:300px;
+    color:#dddddd;
+}
+.cart tr:first-child{
+    background: linear-gradient(to bottom,#2e2e2e,#52514f);
+    text-align: center;
+}
+.cart .fmsg td{
+    text-align:center;
+}
+.cart .fmsg td:first-child div{
+    float:left;
+    margin-top:10px;
+}
+/*显示食物图片和标题的a标签*/
+.cart .fmsg td:first-child div a{
+    display: inline-block;
+    width:100px;
+}
+.cart .fmsg td:first-child div a img{
+    width:100px;
+    height:100px;
+}
+/*单价*/
+
+.cart .fmsg td{
+    position:relative;
+    /*border-bottom: 3px solid #dddddd;*/
+}
+
+.cart .fmsg td:nth-child(3) a:not(:nth-child(2)){
+    display:inline-block;
+    font-size: 20px;
+    width:40px;
+    height:40px;
+    background:#3d3c3a;
+    text-align: center;
+    line-height: 40px;
+}
+.cart .fmsg td:nth-child(3) a:first-child{
+    position:absolute;
+    left:16px;
+    top:35px;
+}
+.cart .fmsg td:nth-child(3) a:last-child{
+    position:absolute;
+    left:130px;
+    top:35px;
+}
+.cart .fmsg td:nth-child(3) input{
+    width:40px;
+    height:40px;
+    position:absolute;
+    top:35px;
+    left:73px;
+    text-align: center;
+    line-height: 40px;
+    border: none;
+    padding:0;
+}
+/*删除*/
+.cart .fmsg td:last-child a{
+    display:inline-block;
+    width:60px;
+    height:30px;
+    line-height: 30px;
+    background:linear-gradient(to bottom,#2e2e2e,#52514f);;
+
+}
+hr{
+    width:1000px;
+    margin-left:200px;
+}
+/*结算*/
+.pay:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+.pay>a{
+    display: inline-block;
+    width: 80px;
+    height:40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom,#2e2e2e,#52514f);
+    float:right;
+}
+.pay>p{
+    width:300px;
+    line-height: 50px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    float:right;
+}
+
+/*点击删除按钮弹出框样式*/
+/*.alert{*/
+    /*border:1px solid #a33;*/
+    /*color:#922;*/
+    /*background:#fee;*/
+    /*padding:10px;*/
+    /*margin:0 auto;*/
+    /*position:absolute;*/
+    /*left:40%;*/
+    /*top:50%;*/
+/*}*/
+/*.alert p{*/
+    /*text-align:center;*/
+    /*font-size: 25px;*/
+    /*font-family:"Microsoft Sans Serif";*/
+/*}*/
+/*.alert>.close{*/
+    /*float:right;*/
+    /*font-weight:bold;*/
+    /*opacity:.5;*/
+    /*cursor:pointer;*/
+/*}*/
+/*.alert>.close:hover{opacity:1}*/
+/*.fade{ !*定义淡入淡出动画的初始状态,常驻元素*!*/
+    /*width:0; height:0;*/
+    /*opacity:0;*/
+    /*overflow:hidden;*/
+    /*transition:all .5s linear;*/
+/*}*/
+/*.in{ !*定义淡入淡出动画的结束状态*!*/
+    /*width:600px; height:100px; opacity:1;*/
+/*}*/
